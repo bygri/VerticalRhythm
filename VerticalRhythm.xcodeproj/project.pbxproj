@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		829761851A6A319000284279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829761841A6A319000284279 /* AppDelegate.swift */; };
+		829761871A6A319000284279 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829761861A6A319000284279 /* ViewController.swift */; };
+		829761891A6A319000284279 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829761881A6A319000284279 /* Images.xcassets */; };
+		8297618C1A6A319000284279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8297618A1A6A319000284279 /* Main.storyboard */; };
+		829761A21A6A31FD00284279 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829761A11A6A31FD00284279 /* Window.swift */; };
+		829761A41A6A328800284279 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829761A31A6A328800284279 /* View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8297617F1A6A319000284279 /* VerticalRhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalRhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		829761831A6A319000284279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		829761841A6A319000284279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		829761861A6A319000284279 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		829761881A6A319000284279 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8297618B1A6A319000284279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		829761A11A6A31FD00284279 /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		829761A31A6A328800284279 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8297617C1A6A319000284279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		829761761A6A319000284279 = {
+			isa = PBXGroup;
+			children = (
+				829761811A6A319000284279 /* VerticalRhythm */,
+				829761801A6A319000284279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		829761801A6A319000284279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8297617F1A6A319000284279 /* VerticalRhythm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		829761811A6A319000284279 /* VerticalRhythm */ = {
+			isa = PBXGroup;
+			children = (
+				829761841A6A319000284279 /* AppDelegate.swift */,
+				829761861A6A319000284279 /* ViewController.swift */,
+				829761A11A6A31FD00284279 /* Window.swift */,
+				829761A31A6A328800284279 /* View.swift */,
+				829761881A6A319000284279 /* Images.xcassets */,
+				8297618A1A6A319000284279 /* Main.storyboard */,
+				829761821A6A319000284279 /* Supporting Files */,
+			);
+			path = VerticalRhythm;
+			sourceTree = "<group>";
+		};
+		829761821A6A319000284279 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				829761831A6A319000284279 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8297617E1A6A319000284279 /* VerticalRhythm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8297619B1A6A319000284279 /* Build configuration list for PBXNativeTarget "VerticalRhythm" */;
+			buildPhases = (
+				8297617B1A6A319000284279 /* Sources */,
+				8297617C1A6A319000284279 /* Frameworks */,
+				8297617D1A6A319000284279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerticalRhythm;
+			productName = VerticalRhythm;
+			productReference = 8297617F1A6A319000284279 /* VerticalRhythm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		829761771A6A319000284279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Pictureproducts Blue Pty Limited";
+				TargetAttributes = {
+					8297617E1A6A319000284279 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8297617A1A6A319000284279 /* Build configuration list for PBXProject "VerticalRhythm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 829761761A6A319000284279;
+			productRefGroup = 829761801A6A319000284279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8297617E1A6A319000284279 /* VerticalRhythm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8297617D1A6A319000284279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829761891A6A319000284279 /* Images.xcassets in Resources */,
+				8297618C1A6A319000284279 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8297617B1A6A319000284279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829761A41A6A328800284279 /* View.swift in Sources */,
+				829761871A6A319000284279 /* ViewController.swift in Sources */,
+				829761851A6A319000284279 /* AppDelegate.swift in Sources */,
+				829761A21A6A31FD00284279 /* Window.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8297618A1A6A319000284279 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8297618B1A6A319000284279 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		829761991A6A319000284279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8297619A1A6A319000284279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8297619C1A6A319000284279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VerticalRhythm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8297619D1A6A319000284279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VerticalRhythm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8297617A1A6A319000284279 /* Build configuration list for PBXProject "VerticalRhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829761991A6A319000284279 /* Debug */,
+				8297619A1A6A319000284279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8297619B1A6A319000284279 /* Build configuration list for PBXNativeTarget "VerticalRhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8297619C1A6A319000284279 /* Debug */,
+				8297619D1A6A319000284279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 829761771A6A319000284279 /* Project object */;
+}
