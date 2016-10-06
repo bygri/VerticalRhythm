@@ -4,8 +4,8 @@ class ViewController: NSViewController {
     
     @IBOutlet weak var rhythmLabel: NSTextField?
     
-    let numberFormatter: NSNumberFormatter = {
-        let nf = NSNumberFormatter()
+    let numberFormatter: NumberFormatter = {
+        let nf = NumberFormatter()
         nf.minimumFractionDigits = 2
         nf.maximumFractionDigits = 2
         return nf
@@ -13,7 +13,7 @@ class ViewController: NSViewController {
 
     var rhythm = 18.0 {
         didSet {
-            rhythmLabel?.stringValue = numberFormatter.stringFromNumber(rhythm) ?? "?"
+            rhythmLabel?.stringValue = numberFormatter.string(from: NSNumber(value: rhythm)) ?? "?"
             if let view = view as? View {
                 view.rhythm = CGFloat(rhythm)
                 view.needsDisplay = true
@@ -23,18 +23,18 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        rhythmLabel?.stringValue = numberFormatter.stringFromNumber(rhythm) ?? "?"
+        rhythmLabel?.stringValue = numberFormatter.string(from: NSNumber(value: rhythm)) ?? "?"
     }
 
-    @IBAction func increaseRhythm(sender: AnyObject?) {
+    @IBAction func increaseRhythm(_ sender: AnyObject?) {
         rhythm += 0.25
     }
 
-    @IBAction func decreaseRhythm(sender: AnyObject?) {
+    @IBAction func decreaseRhythm(_ sender: AnyObject?) {
         rhythm -= 0.25
     }
 
-    @IBAction func segmentedControl(sender: AnyObject?) {
+    @IBAction func segmentedControl(_ sender: AnyObject?) {
         if let control = sender as? NSSegmentedControl {
             if control.selectedSegment == 0 {
                 decreaseRhythm(self)
